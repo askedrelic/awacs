@@ -40,7 +40,7 @@ function DateWidget(targ) {
 
 DateWidget.getReadable = function() {
 	var d = new Date();
-	return d.getMonth() +"/"+ d.getDate() + "/"+d.getFullYear();
+	return (d.getMonth() + 1) +"/"+ d.getDate() + "/"+d.getFullYear();
 }
 
 function DateAndTimeWidget(targ) {
